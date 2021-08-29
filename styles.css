@@ -26,7 +26,7 @@ button{
 }
 
 .sketchspace{
-    background-color: antiquewhite;
+    background-color: white;
     height:calc(500px/16);
     width: calc(500px/16);
     display:inline;
