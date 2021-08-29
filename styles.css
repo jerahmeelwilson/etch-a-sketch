@@ -8,11 +8,14 @@ main{
     margin: 0 auto;
 }
 
+section{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
 button{
-    width: 10%;
-    margin-top: 10px;
-    margin-left: 60%;
-    align-self: flex-end;
+    width: 50px;   
 }
 
 #sketchpad{
