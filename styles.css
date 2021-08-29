@@ -1,6 +1,19 @@
 header{
     text-align: center;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+button{
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 60%;
+    align-self: flex-end;
+}
 
 #sketchpad{
     height: 500px;

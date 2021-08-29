@@ -14,6 +14,14 @@ function colorInSpace(e) {
     e.target.classList.add("blackspace");
 }
 
+function resetSketchpad() {
+    const sketchspaces = document.querySelectorAll("div.sketchspace");
+    sketchspaces.forEach(space => space.classList.remove("blackspace"));
+    console.log("reset");
+}
 
 const sketchspaces = document.querySelectorAll("div.sketchspace");
 sketchspaces.forEach(space => space.addEventListener("mouseover", colorInSpace));
+
+const resetbutton = document.getElementById("reset");
+resetbutton.onclick = resetSketchpad;
